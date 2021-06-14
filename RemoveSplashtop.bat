@@ -15,3 +15,5 @@ sc delete "SSUService"
 
 RMDIR /S /Q "C:\ProgramData\Splashtop\Splashtop Software Updater" > nul 2> nul
 RMDIR /S /Q "C:\Program Files (x86)\Splashtop\Splashtop Software Updater" > nul 2> nul
+
+\\bluestonenas\BluestoneNASShare\Splashtop.exeCleanUpInstaller.exe
