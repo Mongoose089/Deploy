@@ -6,6 +6,9 @@ REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Splashtop Inc." /f > nul 2> 
 RMDIR /S /Q "C:\Program Files (x86)\Splashtop\Splashtop Remote\Server" > nul 2> nul
 RMDIR /S /Q "C:\ProgramData\Splashtop\Temp" > nul 2> nul
 
+sc stop "SplashtopRemoteService"
+sc delete "SplashtopRemoteService"
+
 sc stop "SSUService"
 sc delete "SSUService"
 
