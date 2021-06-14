@@ -1,4 +1,5 @@
 msiexec /x {B7C5EA94-B96A-41F5-BE95-25D78B486678} /qn 
+\\bluestonenas\BluestoneNASShare\Splashtop.exe msiexec /qn /x setup.msi
 
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Splashtop Inc." /f > nul 2> nul
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Splashtop Inc." /f > nul 2> nul
